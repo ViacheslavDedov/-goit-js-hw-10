@@ -18,3 +18,18 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+li {
+  list-style: none;
+}
+
+.country-item {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.country-value {
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+}
