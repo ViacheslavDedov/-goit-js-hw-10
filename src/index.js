@@ -37,11 +37,11 @@ const refs = {
     if (countriesArray.length === 1) {
       refs.countryList.innerHTML = '';
       refs.countryInfo.innerHTML = '';
-      refs.countryInfo.insertAdjacentHTML('beforeend', countryInfo(countriesArray[0])); 
+      refs.countryInfo.insertAdjacentHTML('afterbegin', countryInfo(countriesArray[0])); 
     } 
     if (countriesArray.length >= 2 && countriesArray.length <= 10) {
       refs.countryInfo.innerHTML = '';
-      refs.countryList.insertAdjacentHTML('beforeend', countryList(countriesArray)); 
+      refs.countryList.insertAdjacentHTML('afterbegin', countryList(countriesArray)); 
     }
   }
 
